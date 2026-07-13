@@ -136,3 +136,7 @@ source $ZSH/oh-my-zsh.sh
 # # enable vim style keybindings for zsh
 
 # bindkey -v
+
+# Load keys and other sensitive config:
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
