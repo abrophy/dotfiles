@@ -7,6 +7,8 @@ configure any new machine with the set up I prefer.
 
 ## tools configured within this repo
 
+(❌ 's deliniate dotfiles that haven't been pulled in yet)
+
 * git ❌
 * iterm2 ❌
 * tmux ❌
