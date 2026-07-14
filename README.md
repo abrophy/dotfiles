@@ -19,11 +19,11 @@ Configs for my favourite tools.
 
 To map these onto local config the recommended processs is via symlinks out of the folder after pulling the repo.
 
-\`\`\`bash
+```bash
 ln -sfn ~/dotfiles/zsh/.zshrc ~/.zshrc
 ln -sfn ~/dotfiles/tmux/.tmux.conf
 ln -sfn ~/dotfiles/git/.gitconfig ~/.gitconfig
 ln -sfn ~/dotfiles/git/.gitignore_global ~/.gitignore_global
-\`\`\`
+```
 
 note that you'll need to manually pull in the profile for iterm2 if you choose to use mine.
