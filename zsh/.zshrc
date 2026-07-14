@@ -139,4 +139,3 @@ source $ZSH/oh-my-zsh.sh
 
 # Load keys and other sensitive config:
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
-
