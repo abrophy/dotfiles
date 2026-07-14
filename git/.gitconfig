@@ -1,0 +1,20 @@
+[alias]
+	co = checkout
+	ci = commit
+	ls = status
+	st = status
+	br = branch
+[core]
+	editor = code --wait
+	excludesfile = ~/.gitignore_global
+[init]
+	defaultBranch = main
+[color]
+	ui = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD

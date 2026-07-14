@@ -1,0 +1,14 @@
+# macOS clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Code Editor local files
+.vscode/
+*.swp
+*.swo
+.netrwhist
+
+# Database/Ruby local environmental overrides
+.env.local
+.env.*.local
