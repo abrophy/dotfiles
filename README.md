@@ -11,9 +11,10 @@ Configs for my favourite tools.
 
 ## Structure
 
-* `/zsh` Customised shell prompt, requires omz
 * `/git` Global rules, ignores, aliases
-* `/vscode` Extensionss, formatting config, keybindings
+* `/tmux` Tmux config, keybindings, theme
+* `/vscode` Extensions, formatting config, keybindings
+* `/zsh` Customised shell prompt, requires omz
 
 # Installation
 
