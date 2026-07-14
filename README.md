@@ -1,16 +1,29 @@
-# Art's dotfiles
+# Dotfiles
 
-This repo acts as a public place for me to store my dotfiles.
+My personal dev environment.
+Configs for my favourite tools.
 
-My main objective here is to set up a turnkey script that allows to easily
-configure any new machine with the set up I prefer.
+## Stack
 
-## tools configured within this repo
+* **Shell** Zsh
+* **Terminal Emulator** iTerm2  (Solarized Dark colour scheme)
+* **Editor** VS Code (with vim keybindings)
 
-(❌ 's deliniate dotfiles that haven't been pulled in yet)
+## Structure
 
-* git ❌
-* iterm2 ❌
-* tmux ❌
-* vscode ❌
-* zsh ❌
+* `/zsh` Customised shell prompt, requires omz
+* `/git` Global rules, ignores, aliases
+* `/vscode` Extensionss, formatting config, keybindings
+
+# Installation
+
+To map these onto local config the recommended processs is via symlinks out of the folder after pulling the repo.
+
+\`\`\`bash
+ln -sfn ~/dotfiles/zsh/.zshrc ~/.zshrc
+ln -sfn ~/dotfiles/tmux/.tmux.conf
+ln -sfn ~/dotfiles/git/.gitconfig ~/.gitconfig
+ln -sfn ~/dotfiles/git/.gitignore_global ~/.gitignore_global
+\`\`\`
+
+note that you'll need to manually pull in the profile for iterm2 if you choose to use mine.
